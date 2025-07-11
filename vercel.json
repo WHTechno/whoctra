@@ -26,8 +26,5 @@
         "Cache-Control": "public, max-age=0, must-revalidate"
       }
     }
-  ],
-  "env": {
-    "PYTHON_VERSION": "3.10"
-  }
+  ]
 }

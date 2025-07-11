@@ -1,0 +1,32 @@
+:root {
+    --primary: #6f42c1;
+    --secondary: #6610f2;
+}
+
+.wallet-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.wallet-card:hover {
+    transform: translateY(-5px);
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--primary);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.address-box {
+    word-break: break-all;
+    font-family: monospace;
+}
+
+.loading-spinner {
+    display: none;
+}
